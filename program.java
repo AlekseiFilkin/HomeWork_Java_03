@@ -14,10 +14,11 @@ public class program {
     
     public static void main(String[] args) {
         List<Integer> int_list = new ArrayList<>(Arrays.asList(1, 9, 2, 11, 4, 3, 5, 7, 8, 1));
-        System.out.println(getMax(int_list));
-        System.out.println(getMin(int_list));
-        System.out.println(getAverage(int_list));
         System.out.println(removeEvenValue(int_list));
+        System.out.println(getMin(int_list));
+        System.out.println(getMax(int_list));
+        System.out.println(getAverage(int_list));
+        
 
     }
 
